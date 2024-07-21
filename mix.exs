@@ -6,6 +6,7 @@ defmodule RedwireLabsBuildrootPackages.MixProject do
       app: :redwire_labs_buildroot_packages,
       version: "0.1.0",
       elixir: "~> 1.16",
+      buildroot_package: true,
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
       deps: deps(),
@@ -53,7 +54,9 @@ defmodule RedwireLabsBuildrootPackages.MixProject do
       maintainers: ["Alex McLain"],
       files: [
         "lib",
+        "package",
         "mix.exs",
+        "Config.in",
         "LICENSE.txt",
         "README.md"
       ]
