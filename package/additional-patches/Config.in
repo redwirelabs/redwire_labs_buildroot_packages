@@ -1,0 +1,15 @@
+menu "Buildroot patches"
+
+config BR2_PACKAGE_REDWIRE_LABS_BUILDROOT_PATCHES_IN_SYSTEM
+	bool "Nerves system directory"
+	help
+	  Buildroot packages are located in the Nerves system directory:
+	  $NERVES_DEFCONFIG_DIR/patches/buildroot
+
+config BR2_PACKAGE_REDWIRE_LABS_BUILDROOT_PATCHES_PATH
+	string "Additional patches directories"
+	help
+	  Directories containing additional patches to apply to buildroot,
+	  space separated.
+
+endmenu

@@ -1,0 +1,4 @@
+config BR2_PACKAGE_REDWIRE_LABS_LINUX_HELPERS
+	bool "Linux helpers"
+	help
+	  Redwire Labs config helpers for Linux.

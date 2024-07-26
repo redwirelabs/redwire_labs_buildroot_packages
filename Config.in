@@ -1,1 +1,5 @@
-source "$BR2_EXTERNAL_REDWIRE_PACKAGES_PATH/package/redwire-labs-base/Config.in"
+source "$BR2_EXTERNAL_REDWIRE_PACKAGES_PATH/package/additional-patches/Config.in"
+source "$BR2_EXTERNAL_REDWIRE_PACKAGES_PATH/package/base/Config.in"
+source "$BR2_EXTERNAL_REDWIRE_PACKAGES_PATH/package/linux-helpers/Config.in"
+source "$BR2_EXTERNAL_REDWIRE_PACKAGES_PATH/package/vintage-net-wifi/Config.in"
+source "$BR2_EXTERNAL_REDWIRE_PACKAGES_PATH/package/wireguard/Config.in"

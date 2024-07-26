@@ -1,0 +1,10 @@
+menu "Redwire Labs"
+
+config REDWIRE_LABS_BASE
+	bool "Base features"
+	default y
+	select WIREGUARD
+	help
+	  Standard features included with a Redwire Labs Nerves system.
+
+endmenu

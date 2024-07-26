@@ -1,0 +1,10 @@
+config BR2_PACKAGE_REDWIRE_LABS_BASE
+	bool "Base packages"
+	default y
+	select BR2_PACKAGE_REDWIRE_LABS_LINUX_HELPERS
+	select BR2_PACKAGE_REDWIRE_LABS_WIREGUARD
+	select BR2_PACKAGE_IPTABLES
+	select BR2_PACKAGE_IPROUTE2
+	select BR2_PACKAGE_NET_TOOLS
+	help
+	  Standard packages included with a Redwire Labs Nerves system.

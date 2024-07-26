@@ -1,5 +1,0 @@
-config BR2_PACKAGE_REDWIRE_LABS_BASE
-    bool "redwire-labs-base"
-    select BR2_PACKAGE_IPTABLES
-    help
-      Standard packages included with a Redwire Labs Nerves system.
