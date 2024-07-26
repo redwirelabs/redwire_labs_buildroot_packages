@@ -1,1 +1,3 @@
-source "$BR2_EXTERNAL_REDWIRE_PACKAGES_PATH/package/base/Config.in"
+source "$BR2_EXTERNAL_REDWIRE_PACKAGES_PATH/package/redwire-base/Config.in"
+source "$BR2_EXTERNAL_REDWIRE_PACKAGES_PATH/package/redwire-linux-mods/Config.in"
+source "$BR2_EXTERNAL_REDWIRE_PACKAGES_PATH/package/redwire-wireguard/Config.in"
