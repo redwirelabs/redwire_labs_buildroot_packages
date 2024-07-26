@@ -1,1 +1,1 @@
-source "$BR2_EXTERNAL_REDWIRE_PACKAGES_PATH/package/redwire-labs-base/Config.in"
+source "$BR2_EXTERNAL_REDWIRE_PACKAGES_PATH/package/base/Config.in"
