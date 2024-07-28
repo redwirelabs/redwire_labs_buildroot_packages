@@ -1,0 +1,11 @@
+config BR2_PACKAGE_REDWIRE_LABS_VINTAGE_NET_WIFI
+	bool "VintageNet Wi-Fi"
+	select BR2_PACKAGE_WPA_SUPPLICANT
+	select BR2_PACKAGE_WPA_SUPPLICANT_WPA3
+	select BR2_PACKAGE_WPA_SUPPLICANT_HOTSPOT
+	help
+	  Compatibility for VintageNet Wi-Fi networking.
+
+	  Add CONFIG_UDHCPD to Busybox if using access point mode.
+
+	  https://github.com/nerves-networking/vintage_net_wifi
