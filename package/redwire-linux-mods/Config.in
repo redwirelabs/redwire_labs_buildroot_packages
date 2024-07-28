@@ -1,0 +1,4 @@
+config BR2_PACKAGE_REDWIRE_LABS_LINUX_MODS
+	bool "Linux mods"
+	help
+	  Redwire Labs modifications and config helpers for Linux.

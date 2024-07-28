@@ -1,0 +1,21 @@
+menu "Redwire Labs"
+
+config REDWIRE_LABS_BASE
+	bool "Base built-ins"
+	default y
+	help
+	  Standard built-in features included with a Redwire Labs Nerves system.
+
+	  https://www.redwirelabs.com
+
+config REDWIRE_LABS_BASE_MODULES
+	tristate "Base modules"
+	default m
+	select WIREGUARD
+	help
+	  Standard kernel modules included with a Redwire Labs Nerves system.
+	  ONLY set this to M or N.
+
+	  https://www.redwirelabs.com
+
+endmenu

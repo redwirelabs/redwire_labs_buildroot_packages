@@ -1,0 +1,5 @@
+config BR2_PACKAGE_REDWIRE_LABS_WIREGUARD
+	bool "Wireguard"
+	select BR2_PACKAGE_WIREGUARD_TOOLS
+	help
+	  Wireguard
