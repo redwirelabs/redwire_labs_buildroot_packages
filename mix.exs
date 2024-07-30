@@ -53,7 +53,6 @@ defmodule RedwireLabsBuildrootPackages.MixProject do
       links: %{"GitHub" => "https://github.com/redwirelabs/redwire_labs_buildroot_packages"},
       maintainers: ["Alex McLain"],
       files: [
-        "lib",
         "package",
         "mix.exs",
         "Config.in",
