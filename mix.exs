@@ -57,6 +57,8 @@ defmodule RedwireLabsBuildrootPackages.MixProject do
         "package",
         "mix.exs",
         "Config.in",
+        "external.desc",
+        "external.mk",
         "LICENSE.txt",
         "README.md"
       ]
